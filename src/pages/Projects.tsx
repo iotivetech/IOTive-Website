@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import SEO from '../components/common/SEO'
 import Card from '../components/ui/Card'
 import Button from '../components/ui/Button'
 import { HiX, HiArrowLeft, HiArrowRight, HiExternalLink } from 'react-icons/hi'
@@ -282,6 +283,12 @@ const Projects: React.FC = () => {
 
   return (
     <div className="pt-20">
+      <SEO
+        title="Portfolio & Case Studies"
+        description="Check out the successfully delivered hardware and IoT projects by IOTive. Showcasing real-world industrial prototypes and innovative IoT devices."
+        keywords="embedded hardware case studies, industrial automation prototypes, custom IoT dashboard integration, electronics portfolio, hardware solutions showcase, circuit design projects"
+        canonical="/projects"
+      />
       {/* Hero Section */}
       <section className="animated-gradient py-24">
         <div className="section-container">

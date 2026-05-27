@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
+import SEO from '../components/common/SEO'
 import ServiceCard from '../components/common/ServiceCard'
 import Button from '../components/ui/Button'
 import {
@@ -86,6 +87,12 @@ const Services: React.FC = () => {
 
   return (
     <div className="pt-20">
+      <SEO
+        title="Our Engineering Services"
+        description="Explore professional electronics engineering services by IOTive. From multi-layer high-speed PCB layouts to ESP32/Arduino firmware and complete hardware prototyping."
+        keywords="custom circuit design services, multi-layer PCB layout, Altium Designer, KiCAD, IoT firmware developer, sensor integration, BLE WiFi Zigbee IoT, IoT programming, microcontroller engineering"
+        canonical="/services"
+      />
       {/* Hero Section */}
       <section className="animated-gradient py-24">
         <div className="section-container">

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
+import SEO from '../components/common/SEO'
 import HeroSection from '../components/sections/HeroSection'
 import Card from '../components/ui/Card'
 import Button from '../components/ui/Button'
@@ -168,6 +169,12 @@ const Home: React.FC = () => {
 
   return (
     <div>
+      <SEO
+        title="Turning Ideas into Innovation | IoT & PCB Design"
+        description="IOTive is a Pune-based engineering startup providing custom IoT solutions, professional PCB design, firmware development, custom circuit engineering, and practical technical training."
+        keywords="IoT Solutions, PCB Design Pune, Embedded Systems, Custom Electronics, Firmware Developer, Electronics Prototyping, IoT design Pune, hardware prototyping, custom microcontroller firmware, high-speed PCB layouts, embedded system solutions, industrial IoT gateway, smart electronics development"
+        canonical="/"
+      />
       {/* Hero Section */}
       <HeroSection />
 

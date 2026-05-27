@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
+import SEO from '../components/common/SEO'
 import Card from '../components/ui/Card'
 import Button from '../components/ui/Button'
 import { HiUsers } from 'react-icons/hi'
@@ -81,6 +82,12 @@ const About: React.FC = () => {
 
   return (
     <div className="pt-20">
+      <SEO
+        title="About Us | Co-Founders & Mission"
+        description="Meet the engineers behind IOTive. Learn about our mission to democratize embedded systems hardware, our core co-founders, and our growth story in Pune, India."
+        keywords="Pradip D Bhavale, Sahil V Kale, Ankush S Singh, Pradip Bhavale, Sahil Kale, Ankush Singh, IOTive Pune team, hardware engineers India, IoT startup founders, tech training mentors, embedded systems training Pune, electronics manufacturing partners"
+        canonical="/about"
+      />
       {/* Hero Section */}
       <section className="animated-gradient py-24">
         <div className="section-container">

@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import SEO from '../components/common/SEO'
 import ContactForm from '../components/common/ContactForm'
 import Card from '../components/ui/Card'
 import {
@@ -104,6 +105,12 @@ const Contact: React.FC = () => {
 
   return (
     <div className="pt-20">
+      <SEO
+        title="Get in Touch"
+        description="Let's discuss your next custom hardware project, IoT product idea, or academic training. Contact IOTive in Pune for a free engineering consultation."
+        keywords="IoT consultation Pune, hire embedded developers, custom circuit development quote, electronics design partners, IoT training workshops, hardware engineers contact, IOTive email"
+        canonical="/contact"
+      />
       {/* Hero Section */}
       <section className="animated-gradient py-24">
         <div className="section-container">
