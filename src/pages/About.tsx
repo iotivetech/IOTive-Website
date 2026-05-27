@@ -56,13 +56,13 @@ const About: React.FC = () => {
       name: 'Pradip D Bhavale',
       role: 'Co-Founder',
       image: pradipBhavale,
-      description: 'Expert in complex PCB design and fabrication'
+      description: 'Expert in PCB design & Hardware Engineer'
     },
     {
       name: 'Sahil V Kale',
       role: 'Co-Founder',
       image: sahilKale,
-      description: 'Electronics Engineer'
+      description: 'Expert Mentor & Electronics Engineer'
     },
     {
       name: 'Ankush S Singh',
